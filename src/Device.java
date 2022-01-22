@@ -1,8 +1,9 @@
 public class Device {
-    final String producer;
-    final String model;
-    final int yearOfProduction;
-    final String colour;
+
+    private final String producer;
+    public final String model;
+    public final int yearOfProduction;
+    public final String colour;
 
     public Device(String producer, String model, Integer yearOfProduction, String colour) {
         this.producer = producer;
